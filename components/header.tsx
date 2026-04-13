@@ -18,7 +18,7 @@ export function Header() {
           <Image
             src="/logo-full.png"
             alt="Smitholding LLC"
-            width={600}
+            width={400}
             height={70}
             className="h-16 w-auto object-contain"
           />
