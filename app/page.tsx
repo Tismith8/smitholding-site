@@ -69,6 +69,29 @@ export default function HomePage() {
         </div>
       </div>
 
+<div className="mt-12 rounded-3xl border border-white/10 bg-white/[0.03] p-8">
+  <div className="max-w-3xl">
+    <div className="text-sm uppercase tracking-[0.2em] text-red-300">
+      For Homeowners
+    </div>
+    <h2 className="mt-3 text-2xl font-bold text-white">
+      Looking to sell your property?
+    </h2>
+    <p className="mt-4 leading-7 text-white/65">
+      Smitholding LLC works directly with homeowners to discuss property opportunities,
+      renovation situations, and flexible paths to a sale. If you have a property you
+      are considering selling, we’re open to the conversation.
+    </p>
+
+    <a
+      href="/contact"
+      className="mt-6 inline-block rounded-xl bg-red-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-600"
+    >
+      Sell Your Property
+    </a>
+  </div>
+</div>
+
       <div className="mt-20 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         {[
           {
