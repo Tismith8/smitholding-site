@@ -13,7 +13,8 @@ export default function HomePage() {
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
             Smitholding LLC focuses on strategic renovations, house flips, short-term rental investments,
-            long-term rental properties, and wholesale opportunities designed for consistent growth.
+            long-term rental properties, and wholesale opportunities designed for consistent growth. We also 
+            work directly with homeowners looking to sell, offering flexible and straightforward solutions.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
