@@ -45,7 +45,7 @@ export async function POST(req: Request) {
     const resendApiKey = process.env.RESEND_API_KEY
     const fromEmail =
       process.env.CONTACT_FROM_EMAIL ||
-      "Smitholding Website <info@smitholding>"
+      "Smitholding LLC <info@smitholding.com>"
 
     if (!resendApiKey) {
       return NextResponse.json(
@@ -61,7 +61,9 @@ export async function POST(req: Request) {
         <p><strong>Email:</strong> ${payload.email}</p>
         <p><strong>Phone:</strong> ${payload.phone || "Not provided"}</p>
         <p><strong>Message:</strong></p>
-        <div style="white-space: pre-wrap; border: 1px solid #ddd; padding: 12px; border-radius: 8px;">${payload.message}</div>
+        <div style="white-space: pre-wrap; border: 1px solid #ddd; padding: 12px; border-radius: 8px;">
+          ${payload.message}
+        </div>
       </div>
     `
 
