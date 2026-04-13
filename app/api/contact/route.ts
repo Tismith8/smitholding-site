@@ -44,8 +44,7 @@ export async function POST(req: Request) {
 
     const resendApiKey = process.env.RESEND_API_KEY
     const fromEmail =
-      process.env.CONTACT_FROM_EMAIL ||
-      "Smitholding LLC <info@smitholding.com>"
+      process.env.CONTACT_FROM_EMAIL || "Smitholding LLC <info@smitholding.com>"
 
     if (!resendApiKey) {
       return NextResponse.json(
