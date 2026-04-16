@@ -110,7 +110,7 @@ export default function HomePage() {
 
               <div className="relative mb-5 flex items-center justify-start">
                 {/* Glow */}
-                <div className="absolute left-0 top-0 h-12 w-12 rounded-2xl bg-red-500 blur-2xl opacity-80 transition-all duration-300 group-hover:opacity-90 group-hover:scale-110" />
+                <div className="absolute left-0 top-0 h-12 w-12 rounded-2xl bg-red-600 blur-2xl opacity-60 transition-all duration-300 group-hover:opacity-90 group-hover:scale-110" />
 
                 {/* Icon badge */}
                 <div className="relative z-10 inline-flex items-center justify-center rounded-2xl border border-red-500/30 bg-red-700/20 p-3 transition-all duration-300 group-hover:scale-105 group-hover:bg-red-700/30">
